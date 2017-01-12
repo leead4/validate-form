@@ -1,0 +1,32 @@
+
+
+form {
+	background-color: lightgrey;
+
+}
+
+
+input:required:invalid {
+	background-color: red;
+	color: white;
+	border: 1px solid red;
+}
+
+input:required:valid {
+	background-color: green;
+	color: white;
+ 	border: 1px solid green;
+}
+
+
+	
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <h1>
+      Bank of Nashville
+    </h1>
+    <link rel="stylesheet" type="text/css" href="validation.css">
+  </header>
+
+<nav>Where Nashville goes to bank</nav>
+
+<body>
+  <fieldset> 
+
+      <form action="send-email.php" method="post">
+        <div class="personalInfo">
+   
+   
+            First Name:
+            <br>
+            <input type="text" name="name" size="25" maxlength="40">
+            <br>
+            Middle Name:
+            <br>
+            <input type="text" name="nick name" size="25" maxlength="40">
+            <br>
+            Last Name:
+            <br>
+            <input type="text" name="surname" size="25" maxlength="40">
+            <br>
+            Address:
+            <br>
+            <input type="text" name="surname" size="30" maxlength="40">
+
+        </div>
+
+
+        <div class="jobbyJob">
+
+            Occupation <br>
+            <input type="text" name="job" size="50" maxlength="200">
+            <br>
+            Name of Employer <br>
+            <input type="text" name="job" size="50" maxlength="200">
+            <br>
+            Employer address
+            <br>
+            <textarea name="employer address" rows="5" cols="50"></textarea>
+            <br>
+        </div>
+
+
+        <div class="loanType">
+
+            Choose type of Loan
+            <br>
+            <input type="radio" name="loan type" value="Commercial"> Commercial <br>
+            <input type="radio" name="loan type" value="real estate"> Real estate  <br>
+            <input type="radio" name="loan type" value="real estate"> Personal <br>
+            <input type="radio" name="loan type" value="mortgage"> Mortgage <br>
+ 
+        </div>
+        <br>
+  
+        <div class="loanRequest">
+            Loan Requested
+            <input type="text" name="loan amounth" size="40" max-length="50">
+        </div>
+        <br>
+       
+        <div>
+          Choose length of Loan
+            <input type="radio" name="loan length" value="5 years"> 5 years 
+            <input type="radio" name="loan length" value="15 years"> 15 years 
+            <input type="radio" name="loan length" value="30 years"> 30 years
+  
+        </div>
+          <br>
+          
+          <div class="conditions">
+          Special conditions 
+          <br> 
+            <input type="checkbox" name="condition" value="married"> Married<br>
+             <input type="checkbox" name="conditon" value="I have a down payment"> I have a down payment<br>
+            <input type="checkbox" name="condtion" value="Out-of-State Resident"> Out-of-State Resident<br>
+            <input type="checkbox" name="condition value=Cosigning"> Loan will be cosigned<br>
+            <br>
+            <br>
+            Addtional Comments
+            <br>
+            <br>
+            <textarea class="commentBox" name="addtional comments" rows="5" cols="40"></textarea>
+            </div>
+ 
+            <br>
+    
+          <div class="digitalAd">
+          Email<br>
+            <input type="email" name="email" required placeholder="enter valid email" size="50" maxlength="60">  
+            <br>
+            Telephone 
+            <br>
+            <input type="tel" name="phone" required placeholder="???-???-????" size="50" maxlength="60" pattern="\d{3}[\-]\d{3}[\-]\d{4}"> 
+            <br> 
+            LinkedIN 
+            <br>
+            <input type="url" name="LinkedIN" required placeholder="http://www.linkedin.com/in/yourname" size="50" maxlength="60" pattern="https?://.+" >  
+          </div>
+ 
+
+          <div class="submitButton">
+          <input type="submit" name="submit application">
+          </div>
+
+    </form>
+  </fieldset>
+ </body>
+
+<footer>Thanks for choosing Nashville Bank
+</footer>
+
+</html>
